@@ -1,0 +1,63 @@
+Python I
+
+Interactive mode vs. Script mode
+
+Interactive mode:
+- open terminal
+- python3 (current version), enter
+- help() leads to the help menu; help(print) shows you information about the object “print”
+→ the terminal runs now the “Python interpreter”, if code is entered it the interpreter replies immediately
+→ advantage: easy testing of small code peaces (type & execute), quick help
+
+Script mode:
+- open text editor
+- enter code
+- save text file (end with .py)
+- open terminal
+- enter file path (where your file is saved)
+- start python before loading your file (~ python Uebung.py), enter
+→ the interpreter reads your file & shows the output
+→ advantage: if coding a program the code should always be saved, so you can execute and modify it later
+
+Programming
+
+- error-prone
+- error = bug, removing an error = debugging
+
+	syntax error:
+	- syntax = structure of a program
+	- SyntaxError: invalid syntax followed by the line where the interpreter was forced to quit 	execution
+
+	runtime error:
+	- rare
+	- do not appear before program was started
+
+	semantic errors:
+	- program runs (no error message will be generated), but shows wrong output
+	- although no coding error, wrong approach 
+
+- formal languages (designed by people for specific applications), literal, can be understood entirely by analysis of the code
+- learn to interpret the structure of a program
+- small errors in spelling and punctuation (insignificant in natural languages) make the difference
+
+
+
+
+The first program
+
+- program = sequence of instructions
+- gets input (from keyboard, file etc.)
+- gives output (displays (processed) data)
+- maths (based on basic mathematical operations)
+- conditional execution (Fallunterscheidung) (check for certain conditions and execute the appropriate code)
+- repetition (Schleife) (repeated action (with variations))
+
+
+print(“xyxyxy”): output xyxyxy
+with “xyxyxy” being a string (of letters) 
+strings (str) are enclosed in quotation marks and represent sequences of characters
+integer (int) represents whole numbers
+floating-point represents numbers with fractional parts
+
+k
+
